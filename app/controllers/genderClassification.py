@@ -111,7 +111,7 @@ def predictGender(imageArray):
             'error': "Oops! Something went wrong. Please try again"
         })
 
-#test
+
 def result():
     if 'image' not in request.files:
         resp = jsonify({'msg': "No body image attached in request"})
